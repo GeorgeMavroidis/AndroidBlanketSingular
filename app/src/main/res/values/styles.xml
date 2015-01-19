@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+
+        <item name="android:color">@android:color/white</item>
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:actionBarTabBarStyle">@style/TabBar</item>
+        <item name="android:actionBarTabStyle">@style/MyActionBarTabStyle</item>
+        <item name="android:dividerPadding">0dp</item>
+        <item name="android:divider">@android:color/white</item>
+
+
+
+
+    </style>
+
+
+
+    <style name="TabBar" parent="android:Widget.ActionBar.TabBar">
+        <item name="android:background">@android:color/white</item>
+
+
+
+    </style>
+    <style name="MyActionBarTabStyle" parent="android:Widget.ActionBar.TabView">
+        <!-- to change the blue line, change the background here -->
+        <!--<item name="android:background">@android:color/black</item>-->
+        <item name="android:colorActivatedHighlight">@android:color/black</item>
+        <item name="android:colorLongPressedHighlight">@android:color/black</item>
+        <item name="android:colorPressedHighlight">@android:color/black</item>
+        <item name="android:colorFocusedHighlight">@android:color/black</item>
+    </style>
+
+</resources>

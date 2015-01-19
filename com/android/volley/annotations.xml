@@ -1,0 +1,6 @@
+<root>
+    <item name='com.android.volley.Response.Listener'>
+        <annotation name='java.lang.annotation.Deprecated' />
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>
